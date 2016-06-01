@@ -39,7 +39,7 @@
 function readCookie()
 {
  var allcookies = document.cookie;
- document.write ("All Cookies : " + allcookies );
+ document.write ("All Cookies : " + allcookies  + "<br></br>");
 
                // Get all the cookies pairs in an array
                cookiearray = allcookies.split(';');
